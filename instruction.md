@@ -15,7 +15,7 @@
     ```
     sudo apt update && sudo apt upgrade -y
     ```
-    > **Ko šī komanda dara?**
+    > [!NOTE] **Ko šī komanda dara?**
     `sudo apt update`: Atjaunina informāciju par pieejamām programmatūras versijām.
     `sudo apt upgrade -y`: Atjaunina visas instalētās programmas uz jaunākajām versijām.
 
