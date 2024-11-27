@@ -11,7 +11,7 @@
 
 ## Instalācijas Soļi
 
- - [ ] **1. Atjaunot sistēmas pakotnes**
+ - [ ] **1. Atjaunojam sistēmas pakotnes**
     ```
     sudo apt update && sudo apt upgrade -y
     ```
@@ -19,7 +19,7 @@
     `sudo apt update`: Atjaunina informāciju par pieejamām programmatūras versijām.
     `sudo apt upgrade -y`: Atjaunina visas instalētās programmas uz jaunākajām versijām.
 
- - [ ] **2. Instalēt Apache**
+ - [ ] **2. Instalējam Apache**
     ```
     sudo apt install apache2 -y
     ```
@@ -27,7 +27,7 @@
     `sudo apt install apache2`: Instalē Apache serveri no Ubuntu programmatūras repozitorijiem.
     `-y`: Automātiski apstiprina instalāciju.
 
- - [ ] **3. Verificēt instalāciju**
+ - [ ] **3. Verificējam instalāciju**
     - Pārbaudiet, vai Apache darbojas:
     ```
     sudo systemctl status apache2
@@ -35,7 +35,7 @@
     > **Ko šī komanda dara?**
     `sudo systemctl status apache2`: Parāda informāciju par Apache servera darbību (vai tas ir ieslēgts, darbojas bez kļūdām).
 
-### Pārbaudiet serveri pārlūkprogrammā
+### Pārbaudam serveri pārlūkprogrammā
 Atveriet pārlūkprogrammu.
 Ierakstiet `http://<server-ip>` vai `http://localhost`.
 `localhost`: Norāda, ka jūs pārbaudāt serveri uz tās pašas mašīnas.
@@ -46,7 +46,7 @@ Ja viss darbojas, jūs redzēsiet noklusējuma Apache sveiciena lapu - `It works
 
 ## HTTPS Konfigurācija ar Let's Encrypt (SSL)
 
-- [ ] **1. Instalēt `certbot`**
+- [ ] **1. Instalējam `certbot`**
     ```
     sudo apt install certbot python3-certbot-apache -y
     ```
