@@ -136,12 +136,12 @@ SSL sertifikātiem ir derīguma termiņš (parasti 90 dienas). Ar šo komandu j�
 
  - [ ] Lejupielādējam jaunāko Prometheus versiju no oficiālās mājaslapas:
     ```
-    wget https://github.com/prometheus/prometheus/releases/download/v3.0.0/prometheus-2.x.x.linux-amd64.tar.gz
+    wget https://github.com/prometheus/prometheus/releases/download/v3.0.0/prometheus-3.0.0.linux-amd64.tar.gz
     ```
  - [ ] Izpakojam arhīvu:
     ```
-    tar -xvzf prometheus-2.x.x.linux-amd64.tar.gz
-    cd prometheus-2.x.x.linux-amd64
+    tar -xvzf prometheus-3.0.0.linux-amd64.tar.gz
+    cd prometheus-3.0.0.linux-amd64
     ```
  - [ ] Palaidam Prometheus:
     ```
@@ -152,11 +152,11 @@ SSL sertifikātiem ir derīguma termiņš (parasti 90 dienas). Ar šo komandu j�
 ### Instalējam Apache Eksportētāju
  - [ ] Lejupielādējam apache_exporter:
     ```
-    wget https://github.com/Lusitaniae/apache_exporter/releases/download/v0.x.x/apache_exporter-0.x.x.linux-amd64.tar.gz
+    wget https://github.com/Lusitaniae/apache_exporter/releases/download/v1.0.9/apache_exporter-1.0.9.linux-amd64.tar.gz
     ```
  - [ ] Izpakojam arhīvu:
     ```
-    tar -xvzf apache_exporter-0.x.x.linux-amd64.tar.gz
+    tar -xvzf apache_exporter-1.0.9.linux-amd64.tar.gz
     ```
  - [ ] Palaidam eksportētāju:
     ```
