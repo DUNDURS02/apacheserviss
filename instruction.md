@@ -50,6 +50,8 @@ Ja viss darbojas, jūs redzēsiet noklusējuma Apache sveiciena lapu - `It works
     ```
     sudo apt install certbot python3-certbot-apache -y
     ```
+    > Jā nav instalēts `curl`, tad instalējam: `sudo apt install curl`
+    
     > **Ko šī komanda dara?**
     Instalē certbot un tā paplašinājumu, kas ļauj to izmantot kopā ar Apache.
 
