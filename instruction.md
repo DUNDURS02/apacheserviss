@@ -50,8 +50,6 @@ Ja viss darbojas, jūs redzēsiet noklusējuma Apache sveiciena lapu - `It works
     ```
     sudo apt install certbot python3-certbot-apache -y
     ```
-    > Jā nav instalēts `curl`, tad instalējam: `sudo apt install curl`
-    
     > **Ko šī komanda dara?**
     Instalē certbot un tā paplašinājumu, kas ļauj to izmantot kopā ar Apache.
 
@@ -80,6 +78,7 @@ SSL sertifikātiem ir derīguma termiņš (parasti 90 dienas). Ar šo komandu j�
     ```
     curl -I http://localhost
     ```
+    > Jā nav instalēts `curl`, tad instalējam: `sudo apt install curl`
     > **Ko šī komanda dara?**
 `curl -I`: Nosūta pieprasījumu uz serveri un parāda tikai atbildes galvenes. Ja viss darbojas, jūs redzēsiet statusu `HTTP/1.1 200 OK`.
 
